@@ -61,6 +61,7 @@ npm start`
 4. Click on the "Fetch Data" button to fetch data from the backend. The button is located in the center of the screen and is styled to match the theme of the app.
 
 5. The app will fetch data from the backend using the URL `http://localhost:8000/api/data`. The backend should be running at that URL for the app to function correctly.
+`The url is kept inside  DataFetcher  component inside src directory`
 
 6. If the app is able to connect to the backend, it will display a message in green that says "Connected to backend in green" followed by the message returned by the backend. If the app is unable to connect to the backend, it will display a message in red that says "Unable to connect with backend".
 
