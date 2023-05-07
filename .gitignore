@@ -128,3 +128,31 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore Python virtual environment files
+venv/
+env/
+
+# Ignore Node modules
+node_modules/
+
+# Ignore build output from React
+build/
+dist/
+*.log
+
+# Ignore migrations and other Django-generated files
+/migrations/
+/__pycache__/
+*.sqlite3
+*.pyc
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
