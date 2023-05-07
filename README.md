@@ -52,6 +52,31 @@ npm start`
 
 3. Open your web browser and go to `http://localhost:3000/` to view the app.
 
+
+# Using app
+
+
+3. Open your web browser and go to `http://localhost:3000/` to view the app.
+
+4. Click on the "Fetch Data" button to fetch data from the backend. The button is located in the center of the screen and is styled to match the theme of the app.
+
+5. The app will fetch data from the backend using the URL `http://localhost:8000/api/data`. The backend should be running at that URL for the app to function correctly.
+
+6. If the app is able to connect to the backend, it will display a message in green that says "Connected to backend in green" followed by the message returned by the backend. If the app is unable to connect to the backend, it will display a message in red that says "Unable to connect with backend".
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and make changes as you'd like. Pull requests are welcome!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Make sure to replace the repository URL and your username with the actual values for your project. You can also customize the content of the README file as needed for your specific project.
+
+Note that the installation and usage instructions assume that the user is using a Unix-like shell (e.g., Bash) on either Windows or Ubuntu. If the user is using a different shell or operating system, the commands may need to be modified accordingly.
+
+
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and make changes as you'd like. Pull requests are welcome!
